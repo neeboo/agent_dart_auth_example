@@ -1,0 +1,1 @@
+cd canister && rm -rf .dfx && dfx deploy --no-wallet
