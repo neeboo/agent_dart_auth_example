@@ -2,15 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+## Quick Start
 
-This project is a starting point for a Flutter application.
+1. git clone
+2. Deploy II to local envioronment, see [IC_ENV](https://github.com/AstroxNetwork/ic_env)
+3. Run bootstrap script
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+dart ./scripts/prepare.dart
+```
+4. Run flutter, change endpoint from `localhost` to `10.0.2.2` in `lib.main` if you use android emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
