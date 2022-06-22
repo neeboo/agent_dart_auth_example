@@ -11,6 +11,18 @@ A new Flutter project.
 ```bash
 dart ./scripts/prepare.dart
 ```
+for more help, you can pass `--help` to see detail
+
+```bash
+❯ dart ./scripts/bootstrap.dart --help
+-h, --help               Displays this help information.
+    --[no-]production    Whether to use development environment.
+-d, --deploy             Would you like to deploy canister
+                         (defaults to "./canister")
+-i, --ii                 II canister
+                         (defaults to "rwlgt-iiaaa-aaaaa-aaaaa-cai")
+```
+
 4. Run flutter, change endpoint from `localhost` to `10.0.2.2` in `lib.main` if you use android emulator
 
 ```bash
